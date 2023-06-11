@@ -1,0 +1,274 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #weightTable {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .green {
+    background-color: green;
+    color: white;
+  }
+  
+  .orange {
+    background-color: orange;
+    color: white;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
+   */
+
+   .container {
+    max-width: 600px;
+    margin: 45px auto ; 
+    padding: 20px auto 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    margin-top:50%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    /* border-radius: 50%; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #weightInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #unitToggle {
+    width: 100%;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    /* max-width: 100%; */
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr.green {
+    background-color: #c2e8c2;
+  }
+  
+  tr.orange {
+    background-color: #fde5b7;
+  }
+  
+  tr.red {
+    background-color: #f0b7b7;
+  }
+  
+  /* Responsive styles for mobile devices */
+  
+  @media only screen and (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+  
+    form {
+      margin-bottom: 10px;
+    }
+  
+    #weightInput {
+      margin-bottom: 5px;
+      margin-bottom: 5px;
+      font-size: 16px;
+      padding: 6px;
+    }
+  
+    button {
+      margin: 10px auto;
+      padding: 18px 16px;
+      font-size: 50px;
+    }
+  }
+  
+  /* footer {
+    background-color: #1e1c60;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  } */
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
+  /* Add cool design styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    font-weight: bold;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .header-nav {
+    display: flex;
+  }
+  
+  .header-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+  }
+  header.transparent {
+    background-color: transparent;
+  }
+  .header-nav a:hover {
+    color: #ffca28;
+  }
+  
+  /* Add cool design styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    top: 0;
+  }
+  
+  .footer-social {
+    margin-top: 20px;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer-social a:hover {
+    color: #ffca28;
+  }
+  

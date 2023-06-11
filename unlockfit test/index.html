@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unlock.Fit - Weight Tracker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+          <h1 class="header-logo">Weight Tracker</h1>
+          <nav class="header-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
+    </header>
+  
+  <div class="container">
+    <form id="weightForm">
+      <h2>Weight Tracker</h2>
+      <label for="nameInput">Enter Your Name:</label>
+      <input type="text" id="nameInput" placeholder="Enter your name" required>
+  
+      <label for="weightInput">Enter Weight:</label>
+      <div class="input-group">
+        <input type="number" id="weightInput" placeholder="Enter weight" required>
+        <select id="unitToggle">
+          <option value="kg">kg</option>
+          <option value="lbs">lbs</option>
+        </select>
+      </div>
+  
+      <label for="heightInput">Enter Height:</label>
+      <input type="number" id="heightInput" placeholder="Enter height in cm" required>
+  
+      <label for="dateInput">Date:</label>
+      <input type="date" id="dateInput" required>
+  
+      <button type="submit">Submit</button>
+    </form>
+  
+    <table id="weightTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Ideal Weight</th>
+          <th>Current Weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Weight data rows will be dynamically added here -->
+      </tbody>
+    </table>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Weight Tracker. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="weightTable"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
